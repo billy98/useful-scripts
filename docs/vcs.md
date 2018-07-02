@@ -10,13 +10,13 @@
 >
 > 使用更现代的`Git`吧！ 💥
 
-1. [swtrunk.sh](docs/vcs.md#beer-swtrunksh)  
+1. [swtrunk.sh](#-swtrunksh)  
     自动`svn`工作目录从分支（`branches`）切换到主干（`trunk`）。  
     PS： `Git`对应的是`git checkout master`，如果你使用了`oh-my-zsh`，已经有对应的别名加速了：`gcm`。
-1. [svn-merge-stop-on-copy.sh](docs/vcs.md#beer-svn-merge-stop-on-copysh)  
+1. [svn-merge-stop-on-copy.sh](#-svn-merge-stop-on-copysh)  
     把指定的远程分支从刚新建分支以来的修改合并到本地`svn`目录或是另一个远程分支。  
     PS：`Git`的合并很直接简单，`git merge branch-foo`，也更智能（没有树冲突一说）。
-1. [cp-svn-url.sh](docs/vcs.md#beer-cp-svn-urlsh)  
+1. [cp-svn-url.sh](#-cp-svn-urlsh)  
     拷贝当前`svn`目录对应的远程分支到系统的粘贴板，省去`CTRL+C`操作。  
     PS：`Git`分支不需要`URL`来引用，没有这个脚本的需求，直接给个分支名就好了。
 
